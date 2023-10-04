@@ -24,10 +24,10 @@ def write_records_result_array(payload: list) -> None:
         print("Records JSON (Array) created")
 
 
-# def write_records_result_object(payload: dict) -> None:
-#     with open("records_result_object.json", "w") as fw:
-#         json.dump(payload, fw)
-#         print("Records JSON (Object) created")
+def write_records_result_object(payload: dict) -> None:
+    with open("records_result_object.json", "w") as fw:
+        json.dump(payload, fw)
+        print("Records JSON (Object) created")
 
 
 def save_record_to_postgres(record: dict) -> None:
@@ -164,32 +164,32 @@ def parse_records_to_list(payload: dict) -> list:
         return result
 
 
-# def parse_records_to_dict(payload: dict) -> dict:
-#     records: list = payload["value"]["ring_central"]["records"]
-#     result = dict()
-#
-#     for item in records:
-#         result[item["id"]] = {
-#             "call_id": item["id"],
-#             "session_id": item["sessionId"],
-#             "telephony_session_id": item["telephonySessionId"],
-#             "to_name": item["to"].get("name"),
-#             "to_location": item["to"].get("location"),
-#             "from_name": item["from"].get("name"),
-#             "from_phone_nuber": item["from"].get("phoneNumber"),
-#             "from_location": item["from"].get("location"),
-#             "call_type": item["type"],
-#             "call_direction": item["direction"],
-#             "call_result": item["result"],
-#             "call_start_time": item["startTime"],
-#             "call_duration_seconds": item["duration"],
-#             "call_action": item["action"],
-#             "call_internal_type": item["internalType"],
-#             "call_reason": item.get("reason"),
-#             "call_reason_description": item.get("reasonDescription"),
-#         }
-#
-#     return result
+def parse_records_to_dict(payload: dict) -> dict:
+    records: list = payload["value"]["ring_central"]["records"]
+    result = dict()
+
+    for item in records:
+        result[item["id"]] = {
+            "call_id": item["id"],
+            "session_id": item["sessionId"],
+            "telephony_session_id": item["telephonySessionId"],
+            "to_name": item["to"].get("name"),
+            "to_location": item["to"].get("location"),
+            "from_name": item["from"].get("name"),
+            "from_phone_nuber": item["from"].get("phoneNumber"),
+            "from_location": item["from"].get("location"),
+            "call_type": item["type"],
+            "call_direction": item["direction"],
+            "call_result": item["result"],
+            "call_start_time": item["startTime"],
+            "call_duration_seconds": item["duration"],
+            "call_action": item["action"],
+            "call_internal_type": item["internalType"],
+            "call_reason": item.get("reason"),
+            "call_reason_description": item.get("reasonDescription"),
+        }
+
+    return result
 
 
 if __name__ == "__main__":
@@ -199,6 +199,6 @@ if __name__ == "__main__":
     parsed_records_list = parse_records_to_list(input_data)
     write_records_result_array(parsed_records_list)
 
-    # # Object of objects format
-    # parsed_records_object = parse_records_to_dict(input_data)
-    # write_records_result_object(parsed_records_object)
+    # Object of objects format
+    parsed_records_object = parse_records_to_dict(input_data)
+    write_records_result_object(parsed_records_object)

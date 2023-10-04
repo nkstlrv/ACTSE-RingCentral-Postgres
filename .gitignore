@@ -1,5 +1,5 @@
 .venv
 .env
-pgdata
-.idea
 *pycache*
+.idea
+pgdata
