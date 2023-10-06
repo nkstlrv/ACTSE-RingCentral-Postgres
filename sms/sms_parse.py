@@ -1,6 +1,12 @@
 import json
 from db.db_handler import PostgresHandler
-from calls_records.call_records_parse import DB_CONFIG, open_test_payload, write_records_result_array
+from calls_records.call_records_parse import DB_CONFIG, open_test_payload
+
+
+def write_sms_result_array(payload: list) -> None:
+    with open("sms_records_result_list.json", "w") as fw:
+        json.dump(payload, fw)
+        print("Records JSON (Array) created")
 
 
 def parse_sms_to_list(payload: dict) -> list:
@@ -18,7 +24,7 @@ def parse_sms_to_list(payload: dict) -> list:
             "from_phone_nuber": item["from"].get("phoneNumber"),
             "from_location": item["from"].get("location"),
             "sms_message_type": item["type"],
-            "sms_message_status": item["messageStatus"],
+            "sms_delivery_status": item["messageStatus"],
             "sms_direction": item["direction"],
             "sms_read_status": item["readStatus"],
             "sms_priority": item["priority"],
@@ -39,5 +45,5 @@ if __name__ == "__main__":
     input_data = open_test_payload("sms_ringcentral_payload.json")
 
     # # Array of objects format
-    parsed_records_list = parse_sms_to_list(input_data)
-    # write_records_result_array(parsed_records_list)
+    parsed_sms_list = parse_sms_to_list(input_data)
+    write_sms_result_array(parsed_sms_list)
