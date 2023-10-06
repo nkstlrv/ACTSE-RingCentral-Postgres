@@ -1,0 +1,406 @@
+{
+    "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store?direction=Inbound&direction=Outbound&messageType=SMS&availability=Alive&dateFrom=2016-03-10T18:07:52.534Z&page=1&perPage=10",
+    "records": [
+      {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170721137043",
+        "id": 2170721137043,
+        "extensionId": "302905043",
+        "to": [
+          {
+            "phoneNumber": "+15873320613",
+            "name": "Duncan Hunter",
+            "location": "Calgary, AB"
+          }
+        ],
+        "from": {
+          "phoneNumber": "+16393189639"
+        },
+        "type": "SMS",
+        "creationTime": "2023-10-05T21:07:06.000Z",
+        "readStatus": "Read",
+        "priority": "Normal",
+        "attachments": [
+          {
+            "id": 2170721137043,
+            "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170721137043/content/2170721137043",
+            "type": "Text",
+            "contentType": "text/plain"
+          }
+        ],
+        "direction": "Inbound",
+        "availability": "Alive",
+        "subject": "Oh thank you for replying. Which pizza restaurant?can you describe  more information about this restaurant?",
+        "messageStatus": "Received",
+        "conversationId": 827655989706765700,
+        "conversation": {
+          "id": "827655989706765734",
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/conversation/827655989706765734"
+        },
+        "lastModifiedTime": "2023-10-05T21:07:07.415Z"
+      },
+      {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170720790043",
+        "id": 2170720790043,
+        "extensionId": "302905043",
+        "to": [
+          {
+            "phoneNumber": "+16393189639"
+          }
+        ],
+        "from": {
+          "phoneNumber": "+15873320613",
+          "name": "Duncan Hunter",
+          "location": "Calgary, AB"
+        },
+        "type": "SMS",
+        "creationTime": "2023-10-05T21:04:33.000Z",
+        "readStatus": "Read",
+        "priority": "Normal",
+        "attachments": [
+          {
+            "id": 2170720790043,
+            "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170720790043/content/2170720790043",
+            "type": "Text",
+            "contentType": "text/plain"
+          }
+        ],
+        "direction": "Outbound",
+        "availability": "Alive",
+        "subject": "Hi Haiou, it's Mary, I was calling with Re/Max Premier Realty and FindBusinesses4Sale, checking about your inquiry for a Pizza Restaurant for Sale ",
+        "messageStatus": "Delivered",
+        "smsSendingAttemptsCount": 1,
+        "conversationId": 827655989706765700,
+        "conversation": {
+          "id": "827655989706765734",
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/conversation/827655989706765734"
+        },
+        "lastModifiedTime": "2023-10-05T21:04:35.710Z"
+      },
+      {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170693696043",
+        "id": 2170693696043,
+        "extensionId": "302905043",
+        "to": [
+          {
+            "phoneNumber": "+17786977999"
+          }
+        ],
+        "from": {
+          "phoneNumber": "+15873320613",
+          "name": "Duncan Hunter",
+          "location": "Calgary, AB"
+        },
+        "type": "SMS",
+        "creationTime": "2023-10-05T18:25:34.000Z",
+        "readStatus": "Read",
+        "priority": "Normal",
+        "attachments": [
+          {
+            "id": 2170693696043,
+            "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170693696043/content/2170693696043",
+            "type": "Text",
+            "contentType": "text/plain"
+          }
+        ],
+        "direction": "Outbound",
+        "availability": "Alive",
+        "subject": "Hey Gabbie!\n\nMary here with Re/Max Premier Realty and FindBusinesses4Sale, we´re a Canadian Business Marketplace.\n\nI have just left you a Voicemail.\n\nPlease contact me using this number when you are free:\n(587) 332-0613\n\nThanks!",
+        "messageStatus": "Delivered",
+        "smsSendingAttemptsCount": 1,
+        "conversationId": 827707988393430400,
+        "conversation": {
+          "id": "827707988393430395",
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/conversation/827707988393430395"
+        },
+        "lastModifiedTime": "2023-10-05T18:25:36.429Z"
+      },
+      {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170688083043",
+        "id": 2170688083043,
+        "extensionId": "302905043",
+        "to": [
+          {
+            "phoneNumber": "+14034724195",
+            "location": "Calgary, AB"
+          }
+        ],
+        "from": {
+          "phoneNumber": "+15873320613",
+          "name": "Duncan Hunter",
+          "location": "Calgary, AB"
+        },
+        "type": "SMS",
+        "creationTime": "2023-10-05T17:58:07.000Z",
+        "readStatus": "Read",
+        "priority": "Normal",
+        "attachments": [
+          {
+            "id": 2170688083043,
+            "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170688083043/content/2170688083043",
+            "type": "Text",
+            "contentType": "text/plain"
+          }
+        ],
+        "direction": "Outbound",
+        "availability": "Alive",
+        "subject": "Hey Roger! Thank you for the heads up, let me check with my realtor what's going on and I will be right back to you ",
+        "messageStatus": "Delivered",
+        "smsSendingAttemptsCount": 1,
+        "conversationId": 895922426642448300,
+        "conversation": {
+          "id": "895922426642448276",
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/conversation/895922426642448276"
+        },
+        "lastModifiedTime": "2023-10-05T17:58:09.444Z"
+      },
+      {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170687028043",
+        "id": 2170687028043,
+        "extensionId": "302905043",
+        "to": [
+          {
+            "phoneNumber": "+15873320613",
+            "name": "Duncan Hunter",
+            "location": "Calgary, AB"
+          }
+        ],
+        "from": {
+          "phoneNumber": "+14034724195",
+          "location": "Calgary, AB"
+        },
+        "type": "SMS",
+        "creationTime": "2023-10-05T17:52:20.000Z",
+        "readStatus": "Read",
+        "priority": "Normal",
+        "attachments": [
+          {
+            "id": 2170687028043,
+            "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170687028043/content/2170687028043",
+            "type": "Text",
+            "contentType": "text/plain"
+          }
+        ],
+        "direction": "Inbound",
+        "availability": "Alive",
+        "subject": "Hello, I didn't receive any call back from the realtor yet. Please show me details of the deal ",
+        "messageStatus": "Received",
+        "conversationId": 895922426642448300,
+        "conversation": {
+          "id": "895922426642448276",
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/conversation/895922426642448276"
+        },
+        "lastModifiedTime": "2023-10-05T17:52:35.607Z"
+      },
+      {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170685927043",
+        "id": 2170685927043,
+        "extensionId": "302905043",
+        "to": [
+          {
+            "phoneNumber": "+14037078067"
+          }
+        ],
+        "from": {
+          "phoneNumber": "+15873320613",
+          "name": "Duncan Hunter",
+          "location": "Calgary, AB"
+        },
+        "type": "SMS",
+        "creationTime": "2023-10-05T17:46:15.000Z",
+        "readStatus": "Read",
+        "priority": "Normal",
+        "attachments": [
+          {
+            "id": 2170685927043,
+            "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170685927043/content/2170685927043",
+            "type": "Text",
+            "contentType": "text/plain"
+          }
+        ],
+        "direction": "Outbound",
+        "availability": "Alive",
+        "subject": "Hey Hussein!\n\nMary here with Re/Max Premier Realty and FindBusinesses4Sale, we´re a Canadian Business Marketplace.\n\nI have just left you a Voicemail.\n\nPlease contact me using this number when you are free:\n(587) 332-0613\n\nThanks!",
+        "messageStatus": "Delivered",
+        "smsSendingAttemptsCount": 1,
+        "conversationId": 1083911898724979000,
+        "conversation": {
+          "id": "1083911898724978935",
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/conversation/1083911898724978935"
+        },
+        "lastModifiedTime": "2023-10-05T17:46:16.934Z"
+      },
+      {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170685064043",
+        "id": 2170685064043,
+        "extensionId": "302905043",
+        "to": [
+          {
+            "phoneNumber": "+16049925233"
+          }
+        ],
+        "from": {
+          "phoneNumber": "+15873320613",
+          "name": "Duncan Hunter",
+          "location": "Calgary, AB"
+        },
+        "type": "SMS",
+        "creationTime": "2023-10-05T17:41:52.000Z",
+        "readStatus": "Read",
+        "priority": "Normal",
+        "attachments": [
+          {
+            "id": 2170685064043,
+            "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170685064043/content/2170685064043",
+            "type": "Text",
+            "contentType": "text/plain"
+          }
+        ],
+        "direction": "Outbound",
+        "availability": "Alive",
+        "subject": "Hey Kal!\n\nMary here with Re/Max Premier Realty and FindBusinesses4Sale, we´re a Canadian Business Marketplace.\n\nI have just left you a Voicemail.\n\nPlease contact me using this number when you are free:\n(587) 332-0613.\n\nThanks!",
+        "messageStatus": "Delivered",
+        "smsSendingAttemptsCount": 1,
+        "conversationId": 827651565443323400,
+        "conversation": {
+          "id": "827651565443323448",
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/conversation/827651565443323448"
+        },
+        "lastModifiedTime": "2023-10-05T17:41:54.338Z"
+      },
+      {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170684629043",
+        "id": 2170684629043,
+        "extensionId": "302905043",
+        "to": [
+          {
+            "phoneNumber": "+17789264114",
+            "location": "Vancouver, BC"
+          }
+        ],
+        "from": {
+          "phoneNumber": "+15873320613",
+          "name": "Duncan Hunter",
+          "location": "Calgary, AB"
+        },
+        "type": "SMS",
+        "creationTime": "2023-10-05T17:39:49.000Z",
+        "readStatus": "Read",
+        "priority": "Normal",
+        "attachments": [
+          {
+            "id": 2170684629043,
+            "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170684629043/content/2170684629043",
+            "type": "Text",
+            "contentType": "text/plain"
+          }
+        ],
+        "direction": "Outbound",
+        "availability": "Alive",
+        "subject": "Hey Aras!\n\nMary here with Re/Max Premier Realty and FindBusinesses4Sale, we´re a Canadian Business Marketplace.\n\nI have just left you a Voicemail.\n\nPlease contact me using this number when you are free:\n(587) 332-0613\n\nThanks!",
+        "messageStatus": "Delivered",
+        "smsSendingAttemptsCount": 1,
+        "conversationId": 827707991992583800,
+        "conversation": {
+          "id": "827707991992583838",
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/conversation/827707991992583838"
+        },
+        "lastModifiedTime": "2023-10-05T17:39:51.193Z"
+      },
+      {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170684181043",
+        "id": 2170684181043,
+        "extensionId": "302905043",
+        "to": [
+          {
+            "phoneNumber": "+17789277428",
+            "location": "Vancouver, BC"
+          }
+        ],
+        "from": {
+          "phoneNumber": "+15873320613",
+          "name": "Duncan Hunter",
+          "location": "Calgary, AB"
+        },
+        "type": "SMS",
+        "creationTime": "2023-10-05T17:37:19.000Z",
+        "readStatus": "Read",
+        "priority": "Normal",
+        "attachments": [
+          {
+            "id": 2170684181043,
+            "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170684181043/content/2170684181043",
+            "type": "Text",
+            "contentType": "text/plain"
+          }
+        ],
+        "direction": "Outbound",
+        "availability": "Alive",
+        "subject": "Hey Mifrah!\n\nMary here with Re/Max Premier Realty and FindBusinesses4Sale, we´re a Canadian Business Marketplace.\n\nI have just left you a Voicemail.\n\nPlease contact me using this number when you are free:\n(587) 332-0613\n\nThanks!",
+        "messageStatus": "Delivered",
+        "smsSendingAttemptsCount": 1,
+        "conversationId": 827707991993880800,
+        "conversation": {
+          "id": "827707991993880874",
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/conversation/827707991993880874"
+        },
+        "lastModifiedTime": "2023-10-05T17:37:20.969Z"
+      },
+      {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170673466043",
+        "id": 2170673466043,
+        "extensionId": "302905043",
+        "to": [
+          {
+            "phoneNumber": "+16475001400"
+          }
+        ],
+        "from": {
+          "phoneNumber": "+15873320613",
+          "name": "Duncan Hunter",
+          "location": "Calgary, AB"
+        },
+        "type": "SMS",
+        "creationTime": "2023-10-05T16:39:34.000Z",
+        "readStatus": "Read",
+        "priority": "Normal",
+        "attachments": [
+          {
+            "id": 2170673466043,
+            "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170673466043/content/2170673466043",
+            "type": "Text",
+            "contentType": "text/plain"
+          }
+        ],
+        "direction": "Outbound",
+        "availability": "Alive",
+        "subject": "Babak, my name is Donald with RE/MAX Premier Realty and Find Businesses for Sale. You can call me back on this number.",
+        "messageStatus": "Delivered",
+        "smsSendingAttemptsCount": 1,
+        "conversationId": 827657313412521500,
+        "conversation": {
+          "id": "827657313412521416",
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/conversation/827657313412521416"
+        },
+        "lastModifiedTime": "2023-10-05T16:39:36.410Z"
+      }
+    ],
+    "paging": {
+      "page": 1,
+      "totalPages": 20,
+      "perPage": 10,
+      "totalElements": 195,
+      "pageStart": 0,
+      "pageEnd": 9
+    },
+    "navigation": {
+      "nextPage": {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store?direction=Inbound&direction=Outbound&messageType=SMS&availability=Alive&dateFrom=2016-03-10T18:07:52.534Z&page=2&perPage=10"
+      },
+      "firstPage": {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store?direction=Inbound&direction=Outbound&messageType=SMS&availability=Alive&dateFrom=2016-03-10T18:07:52.534Z&page=1&perPage=10"
+      },
+      "lastPage": {
+        "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store?direction=Inbound&direction=Outbound&messageType=SMS&availability=Alive&dateFrom=2016-03-10T18:07:52.534Z&page=20&perPage=10"
+      }
+    }
+  }

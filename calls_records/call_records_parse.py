@@ -1,7 +1,5 @@
 import json
-import time
-import pretty_errors
-from db_handler import PostgresHandler
+from db.db_handler import PostgresHandler
 
 DB_CONFIG = {
     "host": "localhost",
@@ -19,13 +17,13 @@ def open_test_payload(file_path: str) -> dict:
 
 
 def write_records_result_array(payload: list) -> None:
-    with open("records_result_list.json", "w") as fw:
+    with open("call_records_result_list.json", "w") as fw:
         json.dump(payload, fw)
         print("Records JSON (Array) created")
 
 
 def write_records_result_object(payload: dict) -> None:
-    with open("records_result_object.json", "w") as fw:
+    with open("call_records_result_object.json", "w") as fw:
         json.dump(payload, fw)
         print("Records JSON (Object) created")
 
@@ -42,8 +40,8 @@ def parse_records_to_list(payload: dict) -> list:
         create_tabel_query = """
             CREATE TABLE IF NOT EXISTS ringcentral_records (
             id serial PRIMARY KEY,
-            call_id VARCHAR(255) UNIQUE,
-            session_id VARCHAR(255),
+            call_id VARCHAR(255) UNIQUE NOT NULL ,
+            session_id VARCHAR(255) NOT NULL ,
             telephony_session_id VARCHAR(255),
             party_id VARCHAR(255),
             to_name VARCHAR(255),
@@ -193,7 +191,7 @@ def parse_records_to_dict(payload: dict) -> dict:
 
 
 if __name__ == "__main__":
-    input_data = open_test_payload("ringcentral_data.json")
+    input_data = open_test_payload("call_records_ringcentral_payload.json")
 
     # Array of objects format
     parsed_records_list = parse_records_to_list(input_data)
