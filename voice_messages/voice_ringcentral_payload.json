@@ -1,0 +1,442 @@
+{
+  "value": {
+    "ring_central": {
+      "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store?direction=Inbound&direction=Outbound&messageType=VoiceMail&availability=Alive&dateFrom=2016-03-10T18:07:52.534Z&page=1&perPage=10",
+      "records": [
+        {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170583999042",
+          "id": 2170583999042,
+          "extensionId": "302905043",
+          "to": [
+            {
+              "phoneNumber": "+15873320613",
+              "name": "(587) 332-0613 (Duncan Hunter)",
+              "location": "Calgary, AB"
+            }
+          ],
+          "from": {
+            "phoneNumber": "+15063498489",
+            "name": "SAINT JOHN   NB"
+          },
+          "type": "VoiceMail",
+          "creationTime": "2023-10-04T18:33:40.000Z",
+          "readStatus": "Read",
+          "priority": "Normal",
+          "attachments": [
+            {
+              "id": 2170583999042,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170583999042/content/2170583999042",
+              "type": "AudioRecording",
+              "contentType": "audio/mpeg",
+              "vmDuration": 13
+            },
+            {
+              "id": 7767628042,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170583999042/content/7767628042",
+              "type": "AudioTranscription",
+              "contentType": "text/plain",
+              "vmDuration": 13,
+              "fileName": "transcription"
+            }
+          ],
+          "direction": "Inbound",
+          "availability": "Alive",
+          "messageStatus": "Received",
+          "lastModifiedTime": "2023-10-04T18:34:11.313Z",
+          "vmTranscriptionStatus": "Completed"
+        },
+        {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170368329042",
+          "id": 2170368329042,
+          "extensionId": "302905043",
+          "to": [
+            {
+              "phoneNumber": "+15873320613",
+              "name": "(587) 332-0613 (Duncan Hunter)",
+              "location": "Calgary, AB"
+            }
+          ],
+          "from": {
+            "phoneNumber": "+12392333568",
+            "name": "LORI PAGE-GURIN"
+          },
+          "type": "VoiceMail",
+          "creationTime": "2023-10-02T19:14:26.000Z",
+          "readStatus": "Read",
+          "priority": "Normal",
+          "attachments": [
+            {
+              "id": 2170368329042,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170368329042/content/2170368329042",
+              "type": "AudioRecording",
+              "contentType": "audio/mpeg",
+              "vmDuration": 30
+            },
+            {
+              "id": 7733301042,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170368329042/content/7733301042",
+              "type": "AudioTranscription",
+              "contentType": "text/plain",
+              "vmDuration": 30,
+              "fileName": "transcription"
+            }
+          ],
+          "direction": "Inbound",
+          "availability": "Alive",
+          "messageStatus": "Received",
+          "lastModifiedTime": "2023-10-02T20:22:57.592Z",
+          "vmTranscriptionStatus": "Completed"
+        },
+        {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170206543042",
+          "id": 2170206543042,
+          "extensionId": "302905043",
+          "to": [
+            {
+              "phoneNumber": "+15873320613",
+              "name": "(587) 332-0613 (Duncan Hunter)",
+              "location": "Calgary, AB"
+            }
+          ],
+          "from": {
+            "phoneNumber": "+15875978378",
+            "name": "EDMONTON     AB"
+          },
+          "type": "VoiceMail",
+          "creationTime": "2023-09-29T17:19:00.000Z",
+          "readStatus": "Read",
+          "priority": "Normal",
+          "attachments": [
+            {
+              "id": 2170206543042,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170206543042/content/2170206543042",
+              "type": "AudioRecording",
+              "contentType": "audio/mpeg",
+              "vmDuration": 15
+            },
+            {
+              "id": 7690846042,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170206543042/content/7690846042",
+              "type": "AudioTranscription",
+              "contentType": "text/plain",
+              "vmDuration": 15,
+              "fileName": "transcription"
+            }
+          ],
+          "direction": "Inbound",
+          "availability": "Alive",
+          "messageStatus": "Received",
+          "lastModifiedTime": "2023-09-29T17:21:23.810Z",
+          "vmTranscriptionStatus": "Completed"
+        },
+        {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170112656043",
+          "id": 2170112656043,
+          "extensionId": "302905043",
+          "to": [
+            {
+              "phoneNumber": "+15873320613",
+              "name": "(587) 332-0613 (Duncan Hunter)",
+              "location": "Calgary, AB"
+            }
+          ],
+          "from": {
+            "phoneNumber": "+14039996423",
+            "name": "CALGARY      AB"
+          },
+          "type": "VoiceMail",
+          "creationTime": "2023-09-28T17:41:53.000Z",
+          "readStatus": "Read",
+          "priority": "Normal",
+          "attachments": [
+            {
+              "id": 2170112656043,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170112656043/content/2170112656043",
+              "type": "AudioRecording",
+              "contentType": "audio/mpeg",
+              "vmDuration": 26
+            },
+            {
+              "id": 20074694043,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2170112656043/content/20074694043",
+              "type": "AudioTranscription",
+              "contentType": "text/plain",
+              "vmDuration": 26,
+              "fileName": "transcription"
+            }
+          ],
+          "direction": "Inbound",
+          "availability": "Alive",
+          "messageStatus": "Received",
+          "lastModifiedTime": "2023-09-28T18:54:01.981Z",
+          "vmTranscriptionStatus": "Completed"
+        },
+        {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2169634570043",
+          "id": 2169634570043,
+          "extensionId": "302905043",
+          "to": [
+            {
+              "phoneNumber": "+15873320613",
+              "name": "(587) 332-0613 (Duncan Hunter)",
+              "location": "Calgary, AB"
+            }
+          ],
+          "from": {
+            "phoneNumber": "+16477023642",
+            "name": " 16477023642",
+            "location": "Toronto, ON"
+          },
+          "type": "VoiceMail",
+          "creationTime": "2023-09-22T18:05:48.000Z",
+          "readStatus": "Read",
+          "priority": "Normal",
+          "attachments": [
+            {
+              "id": 2169634570043,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2169634570043/content/2169634570043",
+              "type": "AudioRecording",
+              "contentType": "audio/mpeg",
+              "vmDuration": 13
+            },
+            {
+              "id": 19985014043,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2169634570043/content/19985014043",
+              "type": "AudioTranscription",
+              "contentType": "text/plain",
+              "vmDuration": 13,
+              "fileName": "transcription"
+            }
+          ],
+          "direction": "Inbound",
+          "availability": "Alive",
+          "messageStatus": "Received",
+          "lastModifiedTime": "2023-09-22T18:06:55.070Z",
+          "vmTranscriptionStatus": "Completed"
+        },
+        {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2169634197043",
+          "id": 2169634197043,
+          "extensionId": "302905043",
+          "to": [
+            {
+              "phoneNumber": "+15873320613",
+              "name": "(587) 332-0613 (Duncan Hunter)",
+              "location": "Calgary, AB"
+            }
+          ],
+          "from": {
+            "phoneNumber": "+16477023642",
+            "name": " 16477023642",
+            "location": "Toronto, ON"
+          },
+          "type": "VoiceMail",
+          "creationTime": "2023-09-22T18:03:52.000Z",
+          "readStatus": "Read",
+          "priority": "Normal",
+          "attachments": [
+            {
+              "id": 2169634197043,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2169634197043/content/2169634197043",
+              "type": "AudioRecording",
+              "contentType": "audio/mpeg",
+              "vmDuration": 12
+            },
+            {
+              "id": 19984868043,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2169634197043/content/19984868043",
+              "type": "AudioTranscription",
+              "contentType": "text/plain",
+              "vmDuration": 12,
+              "fileName": "transcription"
+            }
+          ],
+          "direction": "Inbound",
+          "availability": "Alive",
+          "messageStatus": "Received",
+          "lastModifiedTime": "2023-09-22T18:07:07.554Z",
+          "vmTranscriptionStatus": "Completed"
+        },
+        {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2169423415042",
+          "id": 2169423415042,
+          "extensionId": "302905043",
+          "to": [
+            {
+              "phoneNumber": "+15873320613",
+              "name": "(587) 332-0613 (Duncan Hunter)",
+              "location": "Calgary, AB"
+            }
+          ],
+          "from": {
+            "phoneNumber": "+13066305392",
+            "name": "MOOSE JAW    SK"
+          },
+          "type": "VoiceMail",
+          "creationTime": "2023-09-20T16:48:45.000Z",
+          "readStatus": "Read",
+          "priority": "Normal",
+          "attachments": [
+            {
+              "id": 2169423415042,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2169423415042/content/2169423415042",
+              "type": "AudioRecording",
+              "contentType": "audio/mpeg",
+              "vmDuration": 17
+            },
+            {
+              "id": 7573701042,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2169423415042/content/7573701042",
+              "type": "AudioTranscription",
+              "contentType": "text/plain",
+              "vmDuration": 17,
+              "fileName": "transcription"
+            }
+          ],
+          "direction": "Inbound",
+          "availability": "Alive",
+          "messageStatus": "Received",
+          "lastModifiedTime": "2023-09-20T16:49:38.706Z",
+          "vmTranscriptionStatus": "Completed"
+        },
+        {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2168901233042",
+          "id": 2168901233042,
+          "extensionId": "302905043",
+          "to": [
+            {
+              "phoneNumber": "+15873320613",
+              "name": "(587) 332-0613 (Duncan Hunter)",
+              "location": "Calgary, AB"
+            }
+          ],
+          "from": {
+            "phoneNumber": "+17782283252",
+            "name": "VANCOUVER    BC"
+          },
+          "type": "VoiceMail",
+          "creationTime": "2023-09-13T20:53:55.000Z",
+          "readStatus": "Read",
+          "priority": "Normal",
+          "attachments": [
+            {
+              "id": 2168901233042,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2168901233042/content/2168901233042",
+              "type": "AudioRecording",
+              "contentType": "audio/mpeg",
+              "vmDuration": 33
+            },
+            {
+              "id": 7470381042,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2168901233042/content/7470381042",
+              "type": "AudioTranscription",
+              "contentType": "text/plain",
+              "vmDuration": 33,
+              "fileName": "transcription"
+            }
+          ],
+          "direction": "Inbound",
+          "availability": "Alive",
+          "messageStatus": "Received",
+          "lastModifiedTime": "2023-09-13T20:54:45.660Z",
+          "vmTranscriptionStatus": "Completed"
+        },
+        {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2166811101043",
+          "id": 2166811101043,
+          "extensionId": "302905043",
+          "to": [
+            {
+              "phoneNumber": "+15873320613",
+              "name": "(587) 332-0613 (Duncan Hunter)",
+              "location": "Calgary, AB"
+            }
+          ],
+          "from": {
+            "phoneNumber": "+12364572366",
+            "name": " 12364572366"
+          },
+          "type": "VoiceMail",
+          "creationTime": "2023-08-18T00:09:06.000Z",
+          "readStatus": "Read",
+          "priority": "Normal",
+          "attachments": [
+            {
+              "id": 2166811101043,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2166811101043/content/2166811101043",
+              "type": "AudioRecording",
+              "contentType": "audio/mpeg",
+              "vmDuration": 4
+            }
+          ],
+          "direction": "Inbound",
+          "availability": "Alive",
+          "messageStatus": "Received",
+          "lastModifiedTime": "2023-08-18T21:57:45.285Z",
+          "vmTranscriptionStatus": "Failed"
+        },
+        {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2166230013043",
+          "id": 2166230013043,
+          "extensionId": "302905043",
+          "to": [
+            {
+              "phoneNumber": "+15873320613",
+              "name": "(587) 332-0613 (Duncan Hunter)",
+              "location": "Calgary, AB"
+            }
+          ],
+          "from": {
+            "phoneNumber": "+17809753898",
+            "name": "EDMONTON     AB"
+          },
+          "type": "VoiceMail",
+          "creationTime": "2023-08-09T17:43:44.000Z",
+          "readStatus": "Read",
+          "priority": "Normal",
+          "attachments": [
+            {
+              "id": 2166230013043,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2166230013043/content/2166230013043",
+              "type": "AudioRecording",
+              "contentType": "audio/mpeg",
+              "vmDuration": 15
+            },
+            {
+              "id": 18923942043,
+              "uri": "https://media.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store/2166230013043/content/18923942043",
+              "type": "AudioTranscription",
+              "contentType": "text/plain",
+              "vmDuration": 15,
+              "fileName": "transcription"
+            }
+          ],
+          "direction": "Inbound",
+          "availability": "Alive",
+          "messageStatus": "Received",
+          "lastModifiedTime": "2023-08-10T20:02:17.072Z",
+          "vmTranscriptionStatus": "Completed"
+        }
+      ],
+      "paging": {
+        "page": 1,
+        "totalPages": 2,
+        "perPage": 10,
+        "totalElements": 18,
+        "pageStart": 0,
+        "pageEnd": 9
+      },
+      "navigation": {
+        "nextPage": {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store?direction=Inbound&direction=Outbound&messageType=VoiceMail&availability=Alive&dateFrom=2016-03-10T18:07:52.534Z&page=2&perPage=10"
+        },
+        "firstPage": {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store?direction=Inbound&direction=Outbound&messageType=VoiceMail&availability=Alive&dateFrom=2016-03-10T18:07:52.534Z&page=1&perPage=10"
+        },
+        "lastPage": {
+          "uri": "https://platform.ringcentral.com/restapi/v1.0/account/302905043/extension/302905043/message-store?direction=Inbound&direction=Outbound&messageType=VoiceMail&availability=Alive&dateFrom=2016-03-10T18:07:52.534Z&page=2&perPage=10"
+        }
+      }
+    }
+  }
+}
