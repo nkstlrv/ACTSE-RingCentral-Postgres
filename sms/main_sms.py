@@ -16,30 +16,30 @@ def parse_sms_to_list(payload: dict) -> list:
     result = list()
 
     with PostgresHandler(DB_CONFIG) as db_handler:
-        # create_tabel_query = """
-        #     CREATE TABLE IF NOT EXISTS ringcentral_sms (
-        #     id bigserial PRIMARY KEY,
-        #     sms_id VARCHAR(255) UNIQUE NOT NULL,
-        #     sms_message TEXT,
-        #     to_name VARCHAR(255),
-        #     to_location VARCHAR(255),
-        #     from_name VARCHAR(255),
-        #     from_phone_nuber VARCHAR(255),
-        #     from_location VARCHAR(255),
-        #     contact_availability VARCHAR(255),
-        #     sms_message_type VARCHAR(255),
-        #     sms_delivery_status VARCHAR(255),
-        #     sms_direction VARCHAR(255),
-        #     sms_read_status VARCHAR(255),
-        #     sms_priority VARCHAR(255),
-        #     sms_time VARCHAR(255),
-        #     sms_time_modified VARCHAR(255),
-        #     conversation_id VARCHAR(255),
-        #     conversation_uri VARCHAR(255)
-        # );
-        #
-        # """
-        # db_handler.execute(create_tabel_query)
+        create_tabel_query = """
+             CREATE TABLE IF NOT EXISTS ringcentral_sms (
+             id bigserial PRIMARY KEY,
+             sms_id VARCHAR(255) UNIQUE NOT NULL,
+             sms_message TEXT,
+             to_name VARCHAR(255),
+             to_location VARCHAR(255),
+             from_name VARCHAR(255),
+             from_phone_nuber VARCHAR(255),
+             from_location VARCHAR(255),
+             contact_availability VARCHAR(255),
+             sms_message_type VARCHAR(255),
+             sms_delivery_status VARCHAR(255),
+             sms_direction VARCHAR(255),
+             sms_read_status VARCHAR(255),
+             sms_priority VARCHAR(255),
+             sms_time VARCHAR(255),
+             sms_time_modified VARCHAR(255),
+             conversation_id VARCHAR(255),
+             conversation_uri VARCHAR(255)
+         );
+        
+         """
+        db_handler.execute(create_tabel_query)
 
         for item in sms:
             insert_parameters = {
