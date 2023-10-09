@@ -1,4 +1,5 @@
 import json
+from pprint import pprint
 from db.db_handler import PostgresHandler
 from calls_records.call_records_parse import DB_CONFIG, open_test_payload
 
@@ -6,7 +7,7 @@ from calls_records.call_records_parse import DB_CONFIG, open_test_payload
 def write_sms_result_array(payload: list) -> None:
     with open("sms_records_result_list.json", "w") as fw:
         json.dump(payload, fw)
-        print("Records JSON (Array) created")
+        print("SMS JSON (Array) created")
 
 
 def parse_sms_to_list(payload: dict) -> list:
@@ -37,7 +38,7 @@ def parse_sms_to_list(payload: dict) -> list:
 
         result.append(insert_parameters)
 
-    print(result)
+    pprint(result)
     return result
 
 
