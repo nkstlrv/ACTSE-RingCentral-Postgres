@@ -1,5 +1,6 @@
 import json
 from pprint import pprint
+import pretty_errors
 from db.db_handler import PostgresHandler
 from calls_records.main_records import DB_CONFIG, open_test_payload
 
@@ -20,10 +21,10 @@ def parse_sms_to_list(payload: dict) -> list:
             "sms_message": item["subject"],
             "to_name": item["to"][-1].get("name"),
             "to_location": item["to"][-1].get("location"),
-            "to_availability": item["availability"],
             "from_name": item["from"].get("name"),
             "from_phone_nuber": item["from"].get("phoneNumber"),
             "from_location": item["from"].get("location"),
+            "contact_availability": item["availability"],
             "sms_message_type": item["type"],
             "sms_delivery_status": item["messageStatus"],
             "sms_direction": item["direction"],

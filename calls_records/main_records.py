@@ -1,5 +1,6 @@
 import json
 from db.db_handler import PostgresHandler
+import pretty_errors
 
 DB_CONFIG = {
     "host": "localhost",
