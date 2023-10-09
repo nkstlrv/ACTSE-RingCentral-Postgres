@@ -1,7 +1,7 @@
 import json
 from pprint import pprint
 from db.db_handler import PostgresHandler
-from calls_records.call_records_parse import DB_CONFIG, open_test_payload
+from calls_records.main_records import DB_CONFIG, open_test_payload
 
 
 def write_sms_result_array(payload: list) -> None:
